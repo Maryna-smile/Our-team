@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+body {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.33;
+
+color: var(--primary-text-color);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 121px 20px;
+}

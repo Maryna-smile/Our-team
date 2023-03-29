@@ -1,0 +1,185 @@
+.header__uppertitle {
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 15px;
+}
+
+.header__title {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1.1;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--gold);
+  margin-bottom: 40px;
+}
+
+.header__decoration-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  margin-bottom: 40px;
+}
+
+.header__decoration {
+  width: 210px;
+  height: 1px;
+
+  border: 1px solid var(--gold);
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.left-side {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-right: 100px;
+}
+
+.photo {
+  position: relative;
+  background-image: url(../images/photo.jpg);
+
+  width: 400px;
+  height: 400px;
+}
+
+.angle:nth-child(1) {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.angle:nth-child(2) {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.angle:nth-child(3) {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+.angle:nth-child(4) {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+}
+
+.team-member {
+  padding-top: 70px;
+  padding-left: 75px;
+  padding-bottom: 70px;
+
+  border-left: 1px solid var(--gold);
+}
+
+.team-member__name {
+  position: relative;
+  display: block;
+
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: var(--grey);
+
+  margin-bottom: 60px;
+}
+
+.team-member__name::after {
+  position: absolute;
+  top: 70px;
+  left: 35%;
+
+  content: " ";
+  display: block;
+
+  width: 100px;
+  height: 1px;
+
+  background-color: var(--gold);
+}
+
+.team-member__position {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: var(--grey);
+
+  margin-bottom: 30px;
+}
+
+.team-member__contacts {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+  margin-bottom: 50px;
+}
+
+.social-icon {
+  transition: all 100ms ease-in;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.team-member__info {
+  max-width: 430px;
+  font-size: 14px;
+  line-height: 1.71;
+
+  text-align: center;
+
+  color: var(--dark-grey);
+
+  margin-bottom: 20px;
+}
+
+.team-member__decorate {
+  display: block;
+  margin: 0 auto;
+
+  margin-bottom: 25px;
+}
+
+.team-member__link {
+  display: block;
+
+  width: max-content;
+
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--grey);
+
+  border: 1px solid var(--gold);
+
+  margin: 0 auto;
+  padding: 5px 10px;
+}
